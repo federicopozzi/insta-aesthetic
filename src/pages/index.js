@@ -1,4 +1,5 @@
 import '../scss/style.scss';
+
 import Layout from '../components/Layout';
 import HeaderHome from '../components/HeaderHome';
 import { ReactComponent as Prova } from '../svg/prova.svg';
@@ -51,13 +52,13 @@ export default function Index() {
           menu.map(({
             titleSx, subTitleDx, titleDx, subTitleSx, src,
           }, i) => (
-            <div className="row border-bottom border-dark border-1">
+            <div className="row border-bottom border-dark border-1" key={src}>
               <div className="col-4 d-flex flex-column justify-content-between border-end border-dark border-1">
                 <p className="">{titleSx}</p>
                 <p>{subTitleSx}</p>
               </div>
               <div className="col-4 border-end border-dark border-1 px-0">
-                <img src={src} className="img-fluid" alt="..." />
+                <img src={src} className="img-fluid aa" />
               </div>
               <div className="col-4 d-flex flex-column justify-content-between">
                 <div>{titleDx}</div>
