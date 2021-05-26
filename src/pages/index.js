@@ -3,24 +3,8 @@ import '../scss/style.scss';
 import Layout from '../components/Layout';
 import HeaderHome from '../components/HeaderHome';
 import { ReactComponent as Prova } from '../svg/prova.svg';
-import menu1 from '../images/menu/menu1.png';
+import Menu from '../components/Menu';
 
-const menu = [
-  {
-    titleSx: 'titoloSx',
-    subTitleSx: 'sottotitoloSx',
-    titleDx: '',
-    subTitleDx: '',
-    src: menu1,
-  },
-  {
-    titleSx: '',
-    subTitleSx: '',
-    titleDx: 'titoloDx2',
-    subTitleDx: 'sottotitoloDx2',
-    src: menu1,
-  },
-];
 export default function Index() {
   return (
     <div className="bg-primary">
@@ -47,27 +31,8 @@ export default function Index() {
           <Prova />
         </div>
       </div>
-      <div className="container-fluid">
-        {
-          menu.map(({
-            titleSx, subTitleDx, titleDx, subTitleSx, src,
-          }, i) => (
-            <div className="row border-bottom border-dark border-1" key={src}>
-              <div className="col-4 d-flex flex-column justify-content-between border-end border-dark border-1">
-                <p className="">{titleSx}</p>
-                <p>{subTitleSx}</p>
-              </div>
-              <div className="col-4 border-end border-dark border-1 px-0">
-                <img src={src} className="img-fluid aa" />
-              </div>
-              <div className="col-4 d-flex flex-column justify-content-between">
-                <div>{titleDx}</div>
-                <div>{subTitleDx}</div>
-              </div>
-            </div>
-          ))
-        }
-      </div>
+      <Menu />
+
     </div>
   );
 }
