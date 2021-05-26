@@ -8,7 +8,7 @@ export default function page01() {
     <div>
       <Layout />
       <HeaderProtocol section={{
-        title: 'titolo',
+        title: 'titolo1',
         main: '01/ titolo',
         text: 'blablablabla',
         src: cover,

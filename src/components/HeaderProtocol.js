@@ -8,12 +8,14 @@ export default function HeaderProtocol({ section }) {
       <div className="container-fluid bg-primary border-bottom border-dark sticky-top">
         <div className="row">
           <div className="col-12 d-flex justify-content-between align-items-center py-3 px-4">
-            <Link to="/">
-              <span>
+
+            <span>
+              <Link to="/">
                 <span className="text-dark">HOME </span>
-                <span className="text-dark mx-4">{section.title}</span>
-              </span>
-            </Link>
+              </Link>
+
+              <span className="text-dark mx-4">{section.title}</span>
+            </span>
             <Link to="/about"><span className="text-dark ">METHOD AND ANALYSIS</span></Link>
           </div>
         </div>
