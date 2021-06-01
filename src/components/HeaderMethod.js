@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import { StaticImage } from 'gatsby-plugin-image';
 import cover01 from '../images/page01/cover.png';
 
-export default function HeaderProtocol({ section }) {
+export default function HeaderMethods({ section }) {
   return (
     <div>
       <div className="container-fluid bg-light border-bottom border-dark sticky-top">
@@ -16,29 +16,26 @@ export default function HeaderProtocol({ section }) {
               </Link>
 
               <span className="text-dark mx-4">{section.title}</span>
+              <span className="text-dark mx-4">>  METHOD AND ANALYSIS</span>
             </span>
-            <Link to="/method01"><span className="text-dark ">METHOD AND ANALYSIS</span></Link>
+
           </div>
         </div>
       </div>
       <div className="container-fluid bg-primary border-bottom border-dark bg-primary ">
-        <div className="row ps-4 ">
-          <div className="col-6">
-            <p>{section.main}</p>
-            <p>{section.text}</p>
+        <div className="row  ">
+          <div className="col-6 px-4" >
+              <p>{section.title}</p>
+              <p>METHOD AND ANALYSIS</p>
           </div>
-          <div className="col-6 px-0">
-            <StaticImage src={section.src} className="img-fluid" />
+          <div className="col-6 px-0" />
+        </div>
+          <div className="row">
+              <div className="col-12 px-4">
+              <p>RESEARCH QUESTION</p>
+              <p>{section.quest}</p>
+              </div>
           </div>
-        </div>
-      </div>
-      <div className="container-fluid bg-primary border-bottom border-dark">
-        <div className="row ps-4">
-
-          <p>{section.band}</p>
-
-        </div>
-        <div className="row" />
       </div>
 
     </div>
