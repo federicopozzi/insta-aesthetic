@@ -12,8 +12,8 @@ import dist2 from '../images/page01/dist2.png';
 import dist3 from '../images/page01/dist3.png';
 import dist4 from '../images/page01/dist4.png';
 import end from '../images/page01/end.png';
-import { StaticImage } from 'gatsby-plugin-image';
-import Link from 'gatsby-link';
+
+import FullMethod from '../components/FullMethod';
 
 export default function page01() {
   return (
@@ -100,7 +100,7 @@ export default function page01() {
               If the perfectionist beauty aims to adapt user’s faces to fixed standars, the dystopic aesthetic wants to contrast this trend by creating provocative filters as tool of self expression.
 
               The difference is immediately visible in the use of colors and in the types of modification
-              {' '}
+
             </p>
           </div>
         </div>
@@ -138,13 +138,7 @@ export default function page01() {
           </div>
         </div>
       </div>
-
-      <div className="container-fluid py-3">
-        <div className="row px-5">
-          <Link to="">FULL METHOD AND ANALYSIS ➙</Link>
-        </div>
-      </div>
-
+      <FullMethod home="/" />
     </div>
   );
 }

@@ -21,7 +21,7 @@ export default function HeaderProtocol({ section }) {
           </div>
         </div>
       </div>
-      <div className="container-fluid bg-primary border-bottom border-dark bg-primary px-4">
+      <div className="container-fluid bg-primary border-bottom border-dark bg-primary ">
         <div className="row ps-4 ">
           <div className="col-6">
             <p>{section.main}</p>
