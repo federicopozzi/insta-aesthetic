@@ -1,11 +1,11 @@
 import Link from 'gatsby-link';
 import '../scss/style.scss';
 
-export default function FullMethod({ home }) {
+export default function FullMethod({ home, text }) {
   return (
     <div className="container-fluid py-3">
       <div className="row px-5">
-        <Link to={home}>FULL METHOD AND ANALYSIS ➙</Link>
+        <Link to={home}>{text}</Link>
       </div>
     </div>
   );

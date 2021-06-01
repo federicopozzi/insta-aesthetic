@@ -138,7 +138,7 @@ export default function page01() {
           </div>
         </div>
       </div>
-      <FullMethod home="/" />
+      <FullMethod home="/method01" text="FULL METHOD AND ANALYSIS ➙" />
     </div>
   );
 }
