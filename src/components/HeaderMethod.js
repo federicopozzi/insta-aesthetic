@@ -6,7 +6,7 @@ import cover01 from '../images/page01/cover.png';
 export default function HeaderMethods({ section }) {
   return (
     <div>
-      <div className="container-fluid bg-light border-bottom border-dark sticky-top">
+      <div className="container-fluid  border-bottom border-dark ">
         <div className="row">
           <div className="col-12 d-flex justify-content-between align-items-center py-3 px-4 ">
 
@@ -22,7 +22,7 @@ export default function HeaderMethods({ section }) {
           </div>
         </div>
       </div>
-      <div className="container-fluid bg-primary border-bottom border-dark bg-primary ">
+      <div className="container-fluid  border-bottom border-dark  ">
         <div className="row  ">
           <div className="col-6 px-4" >
               <p>{section.title}</p>
@@ -37,6 +37,20 @@ export default function HeaderMethods({ section }) {
               </div>
           </div>
       </div>
+        <div className="container-fluid  border-bottom border-dark  ">
+            <div className="row">
+                <div className="col-12 px-4">
+                    <p>DATA COLLECTION</p>
+                </div>
+                <div className="col-4 px-4">
+
+                    <p>{section.firstCol}</p>
+                </div>
+                <div className="col-4 px-4">
+                    <p>{section.secondCol}</p>
+                </div>
+            </div>
+        </div>
 
     </div>
   );
