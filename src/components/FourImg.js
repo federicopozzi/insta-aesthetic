@@ -1,5 +1,4 @@
 import '../scss/style.scss';
-import Link from 'gatsby-link';
 
 export default function FourImg({ imgDescr, description }) {
   return (
@@ -10,7 +9,7 @@ export default function FourImg({ imgDescr, description }) {
           src, descr,
         }, i) => (
           <div className="col-3">
-            <img src={src} className="img-fluid" />
+            <img src={src} className="img-fluid" alt="" />
             <p className="text-center">{descr}</p>
           </div>
         ))

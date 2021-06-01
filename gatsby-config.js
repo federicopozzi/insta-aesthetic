@@ -8,6 +8,9 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp', // Needed for dynamic images
     {
       resolve: 'gatsby-plugin-svgr',
       options: {

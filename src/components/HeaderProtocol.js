@@ -1,5 +1,6 @@
 import '../scss/style.scss';
 import Link from 'gatsby-link';
+import { StaticImage } from 'gatsby-plugin-image';
 import cover01 from '../images/page01/cover.png';
 
 export default function HeaderProtocol({ section }) {
@@ -27,7 +28,7 @@ export default function HeaderProtocol({ section }) {
             <p>{section.text}</p>
           </div>
           <div className="col-6 px-0">
-            <img src={section.src} className="img-fluid" />
+            <StaticImage src={section.src} className="img-fluid" />
           </div>
         </div>
       </div>

@@ -11,6 +11,19 @@
   src: url('../fonts/suisse-italic.woff') format('woff')
 }
 
+@font-face {
+  font-family: Everett-Light;
+  src: url('../fonts/Everett-Light.woff') format('woff')
+}
+@font-face {
+  font-family: Everett-Medium;
+  src: url('../fonts/Everett-Medium.woff') format('woff')
+}
+@font-face {
+  font-family: Everett-Regular;
+  src: url('../fonts/Everett-Regular.woff') format('woff')
+}
+
 $font-family-sans-serif: Suisse-Reg,      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 
 $primary: #C1C0C0;
@@ -30,4 +43,8 @@ a:hover {
   &:hover{
     opacity:1;
   }
+}
+
+.everett {
+  font-family: Everett-Medium;
 }

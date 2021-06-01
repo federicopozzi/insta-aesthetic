@@ -27,7 +27,7 @@ export default function page01() {
       />
       <div className="container-fluid ">
         <div className="row ps-4">
-          <p>PERFECTIONIST BEAUTY</p>
+          <p className="everett">PERFECTIONIST BEAUTY</p>
           <p>
             “It's a perfect face, symmetrical with smooth skin that reminds Kilye Jenner or Kim Kardashian. A face that looks like it’s made out of clay.”
 
