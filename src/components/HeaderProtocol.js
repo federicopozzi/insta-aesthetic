@@ -24,11 +24,11 @@ export default function HeaderProtocol({ section }) {
       <div className="container-fluid bg-primary border-bottom border-dark bg-primary ">
         <div className="row ps-4 ">
           <div className="col-6">
-            <p>{section.main}</p>
-            <p>{section.text}</p>
+            <h2 className="display-3 everett pt-3">{section.main}</h2>
+            <p className="fst-italic">{section.text}</p>
           </div>
           <div className="col-6 px-0">
-            <StaticImage src={section.src} className="img-fluid" />
+            <img src={section.src} className="img-fluid" />
           </div>
         </div>
       </div>

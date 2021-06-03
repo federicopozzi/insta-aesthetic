@@ -10,16 +10,17 @@ export default function method01() {
     <div className="sfondoGrad">
       <Layout />
       <HeaderMethods section={{
-        title: 'titolo1',
+        title: '01/ TWO COMPETING AESTHETIC',
+        link: '/page01',
         quest: 'question',
         firstCol: 'text prima colonna',
         secondCol: 'text seconda colonna',
       }}
       />
       <div className="container-fluid  border-bottom border-dark  ">
-        <div className="row">
+        <div className="row py-3">
           <div className="col-12 px-4">
-            <p>CATEGORIZATION</p>
+            <p className="everett pt-3 display-6">CATEGORIZATION</p>
           </div>
           <div className="col-4 px-4 ">
             <p>
@@ -45,9 +46,9 @@ export default function method01() {
         </div>
       </div>
       <div className="container-fluid  border-bottom border-dark  ">
-        <div className="row">
+        <div className="row py-3">
           <div className="col-12 px-4">
-            <p>FINDINGS</p>
+            <p className="everett pt-3 display-6">FINDINGS</p>
           </div>
           <div className="col-4 px-4">
 
@@ -59,9 +60,9 @@ export default function method01() {
         </div>
       </div>
       <div className="container-fluid  border-bottom border-dark  ">
-        <div className="row">
+        <div className="row py-3">
           <div className="col-12 px-4">
-            <p>COMPARISON</p>
+            <p className="everett pt-3 display-6">COMPARISON</p>
           </div>
           <div className="col-4 px-4">
 
