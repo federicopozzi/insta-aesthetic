@@ -1,7 +1,6 @@
 import '../scss/style.scss';
 import Link from 'gatsby-link';
-import { StaticImage } from 'gatsby-plugin-image';
-import cover01 from '../images/page01/cover.png';
+
 
 export default function HeaderMethods({ section }) {
   return (
