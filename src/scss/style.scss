@@ -29,14 +29,28 @@ $font-family-sans-serif: Suisse-Reg,      system-ui, -apple-system, "Segoe UI", 
 $primary: #C1C0C0;
 $light: #C8C8C8;
 
+$display-font-sizes: (
+        1: 5rem,
+        2: 4.5rem,
+        3: 4rem,
+        4: 3.5rem,
+        5: 3rem,
+        6: 1.5rem
+) !default;
+
+
 @import "~bootstrap";
 
 a{
-  color:black
+  color:black;
+  text-underline: none !important;
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: none;
+  color:black;
+  text-underline: none;
 }
 
 

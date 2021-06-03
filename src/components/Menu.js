@@ -4,8 +4,9 @@ import menu1 from '../images/menu/menu1.png';
 
 const menu = [
   {
-    titleSx: 'titoloSx',
-    subTitleSx: 'sottotitoloSx',
+    titleSx: 'Two competing \n'
+        + 'aesthetics',
+    subTitleSx: 'A new viral trend of dystopic and psycheledelic style of maks is subverting the traditional beauty standard of the first AR filter’s wave ',
     titleDx: '',
     subTitleDx: '',
     src: menu1,
@@ -14,8 +15,8 @@ const menu = [
   {
     titleSx: '',
     subTitleSx: '',
-    titleDx: 'titoloDx2',
-    subTitleDx: 'sottotitoloDx2',
+    titleDx: 'Colors of aR filters',
+    subTitleDx: 'From natural tones that normalize facial changes to surreal colors which emphasize self-distortion. Analyzing the role of color in AR filters',
     src: menu1,
     link: '/page02',
   },
@@ -30,15 +31,16 @@ export default function Menu() {
                   <Link to={link}>
                     <div className="row border-bottom border-dark border-1" key={src}>
                       <div className="col-4 d-flex flex-column justify-content-between border-end border-dark border-1">
-                        <p className="">{titleSx}</p>
-                        <p>{subTitleSx}</p>
+                        <h2 className="everett text-uppercase display-4 py-4">{titleSx}</h2>
+                        <p className="display-6 ">{subTitleSx}</p>
                       </div>
                       <div className="col-4 border-end border-dark border-1 px-0">
                         <img src={src} className="img-fluid aa" />
                       </div>
                       <div className="col-4 d-flex flex-column justify-content-between">
-                        <div>{titleDx}</div>
-                        <div>{subTitleDx}</div>
+
+                        <h2 className="everett text-uppercase display-4 py-4">{titleDx}</h2>
+                        <p className="display-6">{subTitleDx}</p>
                       </div>
                     </div>
                   </Link>
