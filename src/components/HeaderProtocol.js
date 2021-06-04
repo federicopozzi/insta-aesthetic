@@ -17,7 +17,7 @@ export default function HeaderProtocol({ section }) {
 
               <span className="text-dark mx-4">{section.title}</span>
             </span>
-            <Link to="/method01"><span className="text-dark ">METHOD AND ANALYSIS</span></Link>
+            <Link to={section.method}><span className="text-dark ">METHOD AND ANALYSIS</span></Link>
           </div>
         </div>
       </div>

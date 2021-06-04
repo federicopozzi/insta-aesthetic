@@ -27,6 +27,7 @@ export default function page01() {
           text: 'blablablabla',
           src: cover,
           band: 'banda sotto',
+          method: '/method01',
         }}
       />
       <div className="container-fluid ">

@@ -23,6 +23,7 @@ export default function page04() {
           text: 'blablablabla',
           src: cover,
           band: 'banda sotto',
+          method: '/method04',
         }}
       />
       <div className="container-fluid border-bottom border-dark border-1 ">
