@@ -1,9 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
-import * as d3 from 'd3';
 
 import dist1 from '../../images/page01/viz01.png';
 import dist2 from '../../images/page01/viz01.1.png';
-import end from '../../images/page01/end.png';
 
 export default function Viz01() {
   const [viz1, setViz1] = useState(dist1);
