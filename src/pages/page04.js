@@ -35,7 +35,7 @@ export default function page04() {
           <div className="row justify-content-between">
             {
                   ban.map(({ a }, i) => (
-                    <div className="col-2">
+                    <div className="col-2" key={i}>
                       <img src={a} className="img-fluid" alt="" />
                     </div>
                   ))
@@ -61,6 +61,21 @@ export default function page04() {
           <Viz04 />
         </div>
       </div>
+
+      <div className="container-fluid border-bottom border-dark border-1 ">
+        <div className="row">
+          <div className="col-5">
+            <p>The unreachable anonymous Instagram model</p>
+          </div>
+        </div>
+      </div>
+
+        <div className="container-fluid border-bottom border-dark border-1 ">
+            <div className="row">
+                div.col-
+            </div>
+        </div>
+
     </div>
   );
 }

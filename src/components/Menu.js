@@ -20,6 +20,30 @@ const menu = [
     src: menu1,
     link: '/page02',
   },
+  {
+    titleSx: '',
+    subTitleSx: '',
+    titleDx: 'Colors of aR filters',
+    subTitleDx: 'From natural tones that normalize facial changes to surreal colors which emphasize self-distortion. Analyzing the role of color in AR filters',
+    src: menu1,
+    link: '/page03',
+  },
+  {
+    titleSx: '',
+    subTitleSx: '',
+    titleDx: 'Colors of aR filters',
+    subTitleDx: 'From natural tones that normalize facial changes to surreal colors which emphasize self-distortion. Analyzing the role of color in AR filters',
+    src: menu1,
+    link: '/page04',
+  },
+  {
+    titleSx: '',
+    subTitleSx: '',
+    titleDx: 'Colors of aR filters',
+    subTitleDx: 'From natural tones that normalize facial changes to surreal colors which emphasize self-distortion. Analyzing the role of color in AR filters',
+    src: menu1,
+    link: '/page05',
+  },
 ];
 export default function Menu() {
   return (
