@@ -4,6 +4,8 @@ import cover from '../images/page01/cover.png';
 import HeaderProtocol from '../components/HeaderProtocol';
 import viz3 from '../images/page03/viz03.png';
 import p31 from '../images/page03/p31.png';
+import p32 from '../images/page03/p32.png';
+import FullMethod from '../components/FullMethod';
 
 export default function page03() {
   return (
@@ -66,6 +68,58 @@ export default function page03() {
           </div>
         </div>
       </div>
+
+      <div className="container-fluid border-bottom border-dark border-1">
+        <div className="row px-4">
+          <div className="col-6 px-5 py-5  text-center">
+            <img src={p32} className="img-fluid px-0" alt="" />
+          </div>
+          <div className="col-6 px-5 d-flex align-items-center border-start border-1 border-dark">
+            <div>
+              <p className="everett pt-3 display-6 text-uppercase">
+                Stickers as a
+                marketing tool
+              </p>
+              <p>
+                There is a strong recurrence of stickers representing logos of popular brands.
+                In most cases, companies use them as an element of sponsorship: the involvement of users makes them an active part of the communication, creating an increasing level of engagement.
+              </p>
+              {' '}
+              <p>
+                Another interesting aspect is the frequent association of female faces with fashion brand logos. In particular, this connection often occurs in beauty filters, emphasizing the strong relationship between these filters and the world of appearance.
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div className="container-fluid border-bottom border-dark border-1">
+        <div className="row px-4">
+          <div className="col-6 px-5 d-flex align-items-center">
+            <div>
+              <p className="everett pt-3 display-6 text-uppercase">
+                Stickers as an
+                ironic tool for fun tool
+              </p>
+              <p>
+                Finally, categories such as food, emoji and animals represent the purpose of stickers linked to a basic entertainment purpose.
+              </p>
+              <p>
+
+                They are not perceived as a beutification tool, but as a playful one: pizza, donuts, emojis are printed on user’s faces making explicit the simple and ironic functionality.
+                Beyond the type of stickers applied, in most cases, no further changes are made to the user's face, which remains natural as it appears through the camera.
+              </p>
+
+            </div>
+          </div>
+          <div className="col-6 px-5 py-5 border-start border-1 border-dark text-center">
+            <img src={p31} className="img-fluid px-0" alt="" />
+          </div>
+        </div>
+      </div>
+      <FullMethod home="/method03" text="FULL METHOD AND ANALYSIS ➙" />
     </div>
   );
 }
