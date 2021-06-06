@@ -7,7 +7,10 @@ import ban2 from '../images/page04/ban2.png';
 import ban3 from '../images/page04/ban3.png';
 import ban4 from '../images/page04/ban4.png';
 import ban5 from '../images/page04/ban5.png';
+import b4 from '../images/page04/b4.png';
+import b41 from '../images/page04/b4.png';
 import Viz04 from '../components/viz/viz04';
+import p32 from '../images/page03/p32.png';
 
 export default function page04() {
   const ban = [
@@ -64,7 +67,7 @@ export default function page04() {
 
       <div className="container-fluid border-bottom border-dark border-1 ">
         <div className="row">
-          <div className="col-5">
+          <div className="col-4">
             <p>The unreachable anonymous Instagram model</p>
           </div>
         </div>
@@ -72,7 +75,42 @@ export default function page04() {
 
       <div className="container-fluid border-bottom border-dark border-1 ">
         <div className="row">
-          div.col-
+          <div className="col-7">
+            <p>
+              The types of changes applied presents constants in most cases.
+              The nose is reduced, becoming thin and narrow, while lips, on the contrary, are plumped up. The eyes are enlarged and slightly raised at the end, frequently applying fake eyelashes. The face overall is slimmed and the skin smoothed.
+            </p>
+            <p>
+              "There are constants: symmetry, proportion, harmony and when you look at Kim, Megan Fox, Lucy Liu, Halle Berry, you'll always find commonalities."
+            </p>
+            <p>
+              The New Yorker – The Age of Instagram Face
+            </p>
+          </div>
+          <div className="col-5 border-start border-1 border-dark px-5 py-5  text-center">
+            <img src={b4} className="img-fluid px-0" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="container-fluid border-bottom border-dark border-1 ">
+        <div className="row">
+          <div className="col-5 border-start border-1 border-dark px-5 py-5  text-center">
+            <img src={b41} className="img-fluid px-0" alt="" />
+          </div>
+          <div className="col-7">
+            <p>
+              This face also characterized by an ambiguous origin: It’s a racially indefinable appearance that selects the most aesthetically pleasing elements of different racial profiles presenting itself as a mix of different cultures with singularities that are difficult to find all in one face:
+              {' '}
+            </p>
+            <p>
+              "We're talking about an overly tanned skin tone, a South Asian influence with the eyebrows and eye shape, an African American influence with the lips, a Caucasian influence with the nose, a cheek texture that is predominantly Native American and Middle Eastern."
+            </p>
+            <p>
+              The New Yorker – The Age of Instagram Face
+            </p>
+          </div>
+
         </div>
       </div>
 

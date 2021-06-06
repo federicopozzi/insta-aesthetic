@@ -229,7 +229,7 @@ export default function Viz04() {
           <div className="row">
             {
               secondLine.map(({ a }, index) => (
-                <div className="col px-0" key={index}>
+                <div className="col " key={index}>
                   <img src={a} className="img-fluid" alt="" onClick={() => setVis(vizA[index])} />
                 </div>
               ))
