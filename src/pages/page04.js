@@ -70,11 +70,11 @@ export default function page04() {
         </div>
       </div>
 
-        <div className="container-fluid border-bottom border-dark border-1 ">
-            <div className="row">
-                div.col-
-            </div>
+      <div className="container-fluid border-bottom border-dark border-1 ">
+        <div className="row">
+          div.col-
         </div>
+      </div>
 
     </div>
   );
