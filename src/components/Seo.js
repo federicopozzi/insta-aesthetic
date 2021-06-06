@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import cover from '../images/icon.png';
 
 export default function Seo() {
-  const title = 'insta-aesthetic';
+  const title = 'arfilters-aesthetic';
   return (
     <div className="App">
       <Helmet>

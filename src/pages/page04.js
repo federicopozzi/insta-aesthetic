@@ -95,10 +95,10 @@ export default function page04() {
 
       <div className="container-fluid border-bottom border-dark border-1 ">
         <div className="row">
-          <div className="col-5 border-start border-1 border-dark px-5 py-5  text-center">
+          <div className="col-5  px-5 py-5  text-center">
             <img src={b41} className="img-fluid px-0" alt="" />
           </div>
-          <div className="col-7">
+          <div className="col-7 border-start border-1 border-dark">
             <p>
               This face also characterized by an ambiguous origin: It’s a racially indefinable appearance that selects the most aesthetically pleasing elements of different racial profiles presenting itself as a mix of different cultures with singularities that are difficult to find all in one face:
               {' '}
