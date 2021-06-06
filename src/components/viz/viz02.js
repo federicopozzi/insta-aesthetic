@@ -10,8 +10,8 @@ export default function Viz02() {
   return (
     <div className="container-fluid border-bottom border-dark border-1">
       <div className="row">
-        <div className="col-6 border-end border-1 border-dark">sx</div>
-        <div className="col-6 border-end border-1 border-dark">dx</div>
+        <div className="col-6 border-end border-1 border-dark py-2">sx</div>
+        <div className="col-6 border-end border-1 border-dark py-2">dx</div>
         {/* <div className={`col-6 tasto1 ${hover ? 'active' : ''}`} onClick={() => setViz1(dist2, setHover(true))}>viz1</div> */}
         {/* <div className={`col-6 tasto2 ${hover ? '' : 'active'}`} onClick={() => setViz1(dist1, setHover(false))}>viz2</div> */}
       </div>

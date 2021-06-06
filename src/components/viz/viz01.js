@@ -10,11 +10,11 @@ export default function Viz01() {
   return (
     <div className="container-fluid border-bottom border-dark border-1">
       <div className="row">
-        <div className={`col-6 border-end border-dark border-1 tasto1 ${hover ? 'active' : ''}`} onClick={() => setViz1(dist2, setHover(true))}>viz1</div>
-        <div className={`col-6 tasto2 ${hover ? '' : 'active'}`} onClick={() => setViz1(dist1, setHover(false))}>viz2</div>
+        <div className={`col-6 border-end border-dark border-1 tasto1 py-2 ${hover ? 'active' : ''}`} onClick={() => setViz1(dist2, setHover(true))}>viz1</div>
+        <div className={`col-6 tasto2 py-2  ${hover ? '' : 'active'}`} onClick={() => setViz1(dist1, setHover(false))}>viz2</div>
       </div>
       <div className="row">
-        <img src={viz1} className="img-fluid" alt="" />
+        <img src={viz1} className="img-fluid px-0" alt="" />
       </div>
     </div>
   );

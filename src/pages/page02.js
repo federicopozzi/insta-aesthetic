@@ -50,7 +50,7 @@ export default function page02() {
           text: 'blablablabla',
           src: cover,
           band: 'banda sotto',
-          method: '/method01',
+          method: '/method02',
         }}
       />
 
@@ -149,7 +149,7 @@ export default function page02() {
           </div>
         </div>
       </div>
-      <FullMethod home="/method01" text="FULL METHOD AND ANALYSIS ➙" />
+      <FullMethod home="/method02" text="FULL METHOD AND ANALYSIS ➙" />
     </div>
   );
 }
