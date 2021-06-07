@@ -2,7 +2,6 @@ import Layout from '../components/Layout';
 import '../scss/style.scss';
 import HeaderProtocol from '../components/HeaderProtocol';
 import cover from '../images/page02/cover.png';
-import FourImg from '../components/FourImg';
 import a from '../images/page02/1.png';
 import b from '../images/page02/2.png';
 import c from '../images/page02/3.png';
@@ -16,7 +15,6 @@ import legend2 from '../images/page02/legend2.png';
 import schema1 from '../images/page02/schema1.png';
 
 import FullMethod from '../components/FullMethod';
-import Viz01 from '../components/viz/viz01';
 import Viz02 from '../components/viz/viz02';
 
 export default function page02() {
