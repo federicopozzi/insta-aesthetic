@@ -1,6 +1,6 @@
 import Helmet from 'react-helmet';
 
-import cover from '../images/icon.png';
+import cover from '../images/cover.png';
 
 export default function Seo() {
   const title = 'arfilters-aesthetic';
