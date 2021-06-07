@@ -3,7 +3,7 @@ import '../scss/style.scss';
 
 export default function FullMethod({ home, text }) {
   return (
-    <div className="container-fluid py-3">
+    <div className="container-fluid py-4">
       <div className="row px-5">
         <Link to={home}>{text}</Link>
       </div>

@@ -24,8 +24,10 @@ export default function HeaderProtocol({ section }) {
       <div className="container-fluid bg-primary border-bottom border-dark bg-primary ">
         <div className="row ps-4 ">
           <div className="col-6">
-            <h2 className="display-3 everett pt-3">{section.main}</h2>
-            <p className="fst-italic">{section.text}</p>
+            <h2 className="display-4 everett pt-3">{section.main}</h2>
+            <div className="col-10">
+              <p className="fst-italic display-6">{section.text}</p>
+            </div>
           </div>
           <div className="col-6 px-0">
             <img src={section.src} className="img-fluid" />
@@ -33,10 +35,10 @@ export default function HeaderProtocol({ section }) {
         </div>
       </div>
       <div className="container-fluid bg-primary border-bottom border-dark">
-        <div className="row ps-4">
-
-          <p>{section.band}</p>
-
+        <div className="row ps-4 py-3">
+          <div className="col-8">
+            <p className="display-8 everettL">{section.band}</p>
+          </div>
         </div>
         <div className="row" />
       </div>

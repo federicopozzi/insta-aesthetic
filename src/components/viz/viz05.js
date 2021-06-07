@@ -3,6 +3,8 @@ import a1 from '../../images/page05/a1.png';
 import b1 from '../../images/page05/b1.png';
 import a2 from '../../images/page05/a2.png';
 import b2 from '../../images/page05/b2.png';
+import c1 from '../../images/page05/c1.png';
+import c2 from '../../images/page05/c2.png';
 import video from '../../images/page05/video1.mp4';
 
 import Video from '../Video';
@@ -40,8 +42,8 @@ export default function Viz05() {
     {
       descr1: 'DYSTOPIAN INSTAGAM FILTERS @INSTAMASK ACCOUNT',
       descr2: 'GCDS - OUT OF THIS WORLD',
-      img1: b1,
-      img2: b2,
+      img1: c1,
+      img2: c2,
       video1: '',
       video2: '',
       title: 'DYSTOPIC FILTERS IN FASHION SHOWS',

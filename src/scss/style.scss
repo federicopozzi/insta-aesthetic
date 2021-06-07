@@ -39,6 +39,7 @@ $display-font-sizes: (
         5: 3rem,
         6: 1.5rem,
         7: 1.8rem,
+        8: 2.1rem,
 ) !default;
 
 
@@ -67,6 +68,10 @@ a:hover {
 
 .everett {
   font-family: Everett-Medium;
+}
+
+.everettL {
+  font-family: Everett-Light;
 }
 
 .sfondoGrad {

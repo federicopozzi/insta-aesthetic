@@ -13,7 +13,7 @@ export default function Index() {
       <div className="container-fluid bg-primary border-bottom border-dark border-1 ">
         <div className="row pt-4">
           <div className="col-6 pt-5 px-4">
-            <h1 className="display-3 everett">
+            <h1 className="display-4 everett">
               THE AESTHETICS OF
               <br />
               AR INSTAGRAM FILTERS
@@ -22,7 +22,7 @@ export default function Index() {
 
           </div>
           <div className="col-9 pt-5 px-4">
-            <p className="display-6">
+            <p className="display-8">
               Augmented reality filters are redefining traditional notions of beauty and the relationship with our digital altered versions. Instagram filtered images have been analyzed to identify the characteristics of the aesthetics between filters  and to explore how their usage impact on our self-image through different perspectives.
             </p>
           </div>
