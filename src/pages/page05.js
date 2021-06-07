@@ -4,6 +4,7 @@ import HeaderProtocol from '../components/HeaderProtocol';
 import cover from '../images/page01/cover.png';
 import end from '../images/page05/end.png';
 import Viz05 from '../components/viz/viz05';
+import FullMethod from '../components/FullMethod';
 
 export default function page05() {
   return (
@@ -50,6 +51,7 @@ export default function page05() {
         </div>
       </div>
       <Viz05 />
+      <FullMethod home="/method05" text="FULL METHOD AND ANALYSIS ➙" />
     </div>
   );
 }

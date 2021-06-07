@@ -37,7 +37,8 @@ $display-font-sizes: (
         3: 4rem,
         4: 3.5rem,
         5: 3rem,
-        6: 1.5rem
+        6: 1.5rem,
+        7: 1.8rem,
 ) !default;
 
 
@@ -91,4 +92,10 @@ a:hover {
 
 .pointer {
   cursor: pointer;
+}
+
+.under {
+  &.active {
+    text-decoration: underline;
+  }
 }
