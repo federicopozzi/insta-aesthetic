@@ -22,35 +22,35 @@ export default function HeaderMethods({ section }) {
         </div>
       </div>
       <div className="container-fluid  border-bottom border-dark  ">
-        <div className="row  ">
-          <div className="col-6 px-4" >
-              <h2 className="display-3 everett pt-3">{section.title}</h2>
-              <p className={'everett pt-3'}>METHOD AND ANALYSIS</p>
+        <div className="row  px-2 border-start border-end border-dark border-1 mx-2 ">
+          <div className="col-6 " >
+              <h2 className="display-4 everett pt-3">{section.title}</h2>
+              <p className={'everettL pt-2 display-6'}>METHOD AND ANALYSIS</p>
           </div>
           <div className="col-6 px-0" />
         </div>
-          <div className="row pt-5">
-              <div className="col-12 px-4">
+          <div className="row pt-5 px-2 border-start border-end border-dark border-1 mx-2">
+              <div className="col-6 ">
               <p className={'everett pt-3 display-6'}>RESEARCH QUESTION</p>
-              <p>{section.quest}</p>
+              <p className={'display-9'}>{section.quest}</p>
               </div>
           </div>
       </div>
         <div className="container-fluid  border-bottom border-dark  ">
-            <div className="row py-3">
-                <div className="col-12 px-4">
+            <div className="row py-3 px-2 border-start border-end border-dark border-1 mx-2">
+                <div className="col-12 ">
                     <p className={'everett pt-3 display-6'}>DATA COLLECTION</p>
                 </div>
-                <div className="col-4 px-4">
+                <div className="col-4 ">
 
-                    <p>{section.firstCol}</p>
+                    <p className={'display-9'}>{section.firstCol}</p>
                 </div>
-                <div className="col-4 px-4">
-                    <p>{section.secondCol}</p>
+                <div className="col-4 ">
+                    <p className={'display-9'}>{section.secondCol}</p>
                 </div>
             </div>
         </div>
-
     </div>
+
   );
 }
