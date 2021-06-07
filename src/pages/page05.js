@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
 import '../scss/style.scss';
 import HeaderProtocol from '../components/HeaderProtocol';
-import cover from '../images/page01/cover.png';
+import cover from '../images/page05/cover.png';
 import end from '../images/page05/end.png';
 import Viz05 from '../components/viz/viz05';
 import FullMethod from '../components/FullMethod';
@@ -11,12 +11,12 @@ export default function page05() {
     <div className="bg-light">
       <Layout />
       <HeaderProtocol section={{
-        title: 'TWO COMPETING AESTHETIC',
-        main: '05/ COLORS',
-        text: 'blablablabla',
+        title: 'WHEN THE FILTER LEAVES THE PLATFORM',
+        main: '05/ WHEN THE FILTER LEAVES THE PLATFORM',
+        text: 'Dystopic filter are re-defining beauty in other contexts',
         src: cover,
-        band: 'banda sotto',
-        method: '/method02',
+        band: 'The innovative and extrem canons of dystopic filters are redefining beauty even outside Instagram',
+        method: '/method05',
       }}
       />
       <div className="container-fluid border-bottom border-dark border-1">
@@ -41,17 +41,16 @@ export default function page05() {
         </div>
       </div>
 
-      <div className="container-fluid border-bottom border-dark border-1 ">
-        <div className="row px-4">
+      <div className="container-fluid bg-primary border-bottom border-dark">
+        <div className="row ps-4 py-3">
           <div className="col-8">
-            <p>
-              The next section wants to present cases where the Instagram filter went out of the platform, making the border between real and virtual world more blurred.
-            </p>
+            <p className="display-8 everettL">The next section wants to present cases where the Instagram filter went out of the platform, making the border between real and virtual world more blurred.</p>
           </div>
         </div>
+        <div className="row" />
       </div>
       <Viz05 />
-      <FullMethod home="/method05" text="FULL METHOD AND ANALYSIS ➙" />
+      <FullMethod home="/" text="BACK" />
     </div>
   );
 }
