@@ -2,10 +2,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
 import HeaderMethods from '../components/HeaderMethod';
 import protocol from '../images/page02/protocol.png';
-import cover from '../images/page01/cover.png';
+
 import FullMethod from '../components/FullMethod';
 import method2 from '../images/page02/method2.png';
-import p31 from '../images/page03/p31.png';
 
 export default function method02() {
   return (
