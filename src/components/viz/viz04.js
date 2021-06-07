@@ -213,7 +213,7 @@ export default function Viz04() {
 
   return (
     <div className="container-fluid ">
-      <div className="row py-5">
+      <div className="row py-5 px-4">
         <div className="col-7 px-4">
           <div className="row">
 
