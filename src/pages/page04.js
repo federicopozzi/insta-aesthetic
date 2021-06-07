@@ -8,9 +8,11 @@ import ban3 from '../images/page04/ban3.png';
 import ban4 from '../images/page04/ban4.png';
 import ban5 from '../images/page04/ban5.png';
 import b4 from '../images/page04/b4.png';
-import b41 from '../images/page04/b4.png';
+import b41 from '../images/page04/b41.png';
+import b42 from '../images/page04/b42.png';
 import Viz04 from '../components/viz/viz04';
 import p32 from '../images/page03/p32.png';
+import FullMethod from '../components/FullMethod';
 
 export default function page04() {
   const ban = [
@@ -114,6 +116,24 @@ export default function page04() {
         </div>
       </div>
 
+      <div className="container-fluid border-bottom border-dark border-1 ">
+        <div className="row">
+          <div className="col-5  px-5 py-5  ">
+            <p>
+              This face, which is the result of a studied combination, is spreading the ambition to achieve an unattainable look. The user in real life would be strongly dependent on fillers and plastic surgery procedures.
+            </p>
+            <p>
+              Without Instagram, this specific aspect would not be so common and familiar. The social network has helped to the spread of it among a generation of young users: despite the over modification, many of them keep showing digital altered pictures on instagram. Maybe it helps to reach an unattainable standard for a moment.
+              {' '}
+            </p>
+          </div>
+          <div className="col-7 border-start border-1 border-dark text-center py-5">
+            <img src={b42} className="img-fluid px-0" alt="" />
+          </div>
+
+        </div>
+      </div>
+      <FullMethod home="/method04" text="FULL METHOD AND ANALYSIS ➙" />
     </div>
   );
 }

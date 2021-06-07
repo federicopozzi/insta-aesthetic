@@ -213,14 +213,14 @@ export default function Viz04() {
 
   return (
     <div className="container-fluid ">
-      <div className="row">
-        <div className="col-7">
+      <div className="row py-5">
+        <div className="col-7 px-4">
           <div className="row">
 
             {
-              firstLine.map(({ a }, index) => (
-                <div className="col px-0" key={index}>
-                  <img src={a} className="img-fluid" alt="" onClick={() => setVis(vizA[index])} />
+              firstLine.map(({ a }, i) => (
+                <div className="col px-0" key={i}>
+                  <img src={a} className="img-fluid" alt="" onClick={() => setVis(vizA[i])} />
                 </div>
               ))
             }
@@ -228,16 +228,16 @@ export default function Viz04() {
 
           <div className="row">
             {
-              secondLine.map(({ a }, index) => (
-                <div className="col " key={index}>
-                  <img src={a} className="img-fluid" alt="" onClick={() => setVis(vizA[index])} />
+              secondLine.map(({ a }, i) => (
+                <div className="col px-0 " key={i}>
+                  <img src={a} className="img-fluid" alt="" onClick={() => setVis(vizA[i])} />
                 </div>
               ))
             }
           </div>
 
         </div>
-        <div className="col-5">
+        <div className="col-5 px-4">
           <div className="row">
             <div className="col-11">
               <img src={vis.a} className="img-fluid" alt="" />
