@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 
-import a1 from '../../images/page04/viz04/sexxxy eyes.jpg';
-import a2 from '../../images/page04/viz04/sexxxy eyes.jpg';
+import a1 from '../../images/page04/viz04/Asset 2.png';
+import a2 from '../../images/page04/viz04/Asset 3.png';
 import a3 from '../../images/page04/viz04/a1.png';
 import a4 from '../../images/page04/viz04/a1.png';
 import a5 from '../../images/page04/viz04/a1.png';
