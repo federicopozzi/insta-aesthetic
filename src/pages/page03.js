@@ -5,6 +5,7 @@ import HeaderProtocol from '../components/HeaderProtocol';
 import viz3 from '../images/page03/viz03.png';
 import p31 from '../images/page03/p31.png';
 import p32 from '../images/page03/p32.png';
+import p33 from '../images/page03/p33.png';
 import FullMethod from '../components/FullMethod';
 
 export default function page03() {
@@ -118,7 +119,7 @@ export default function page03() {
             </div>
           </div>
           <div className="col-6 px-5 py-5 border-start border-1 border-dark text-center d-flex align-items-center">
-            <img src={p31} className="img-fluid px-0" alt="" />
+            <img src={p33} className="img-fluid px-0" alt="" />
           </div>
         </div>
       </div>

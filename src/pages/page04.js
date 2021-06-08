@@ -51,7 +51,7 @@ export default function page04() {
               <div className="col-8" />
               <div className="col-4 pt-3">
                 {' '}
-                <p className="text-end fst-italic">"Fifty-five percent of surgeons reported seeing patients who requested surgery that would improve them on selfies, often citing their 'Instagram faces' as a preferred starting point."</p>
+                <p className=" fst-italic">"Fifty-five percent of surgeons reported seeing patients who requested surgery that would improve them on selfies, often citing their 'Instagram faces' as a preferred starting point."</p>
                 <p className="text-decoration-underline">2019 – according to findings of an online survey study published in JAMA Facial Plastic Surgery.</p>
               </div>
 
