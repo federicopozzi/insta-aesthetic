@@ -114,3 +114,25 @@ a:hover {
 .e{
   width:50% !important;
 }
+
+
+.accordion {
+  @extend .shadow-sm, .rounded-3;
+  //overflow: hidden;
+  background-color: $light;
+
+  .accordion-header {
+    background-color: $light;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $dark;
+    @extend  .px-2, .py-2, .rounded-3 ;
+  }
+
+  .accordion-body {
+    @extend .px-2, .py-2 ;
+
+  }
+}
