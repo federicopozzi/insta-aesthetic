@@ -103,7 +103,7 @@ export default function page02() {
                 The color probably wants to be neutral to ensure a general natural effect, making less noticeable the presence of other alterations in the face.
               </p>
               <p className="text-end">
-                <img src={legend1} className="img-fluid" alt="" />
+                <img src={legend1} className="img-fluid e pt-5" alt="" />
               </p>
             </div>
           </div>
@@ -142,17 +142,17 @@ export default function page02() {
                 The color deliberately wants to be strong and surreal not to hide the presence of changes and to become a tool for expression and creativity by challenging natural limitations
               </p>
               <p className="">
-                <img src={legend2} className="img-fluid" alt="" />
+                <img src={legend2} className="img-fluid e pt-5" alt="" />
               </p>
             </div>
           </div>
-          <div className="col-6">
-            <img src={schema1} className="img-fluid" alt="" />
+          <div className="col-6 text-start">
+            <img src={schema1} className="img-fluid " alt="" />
           </div>
         </div>
       </div>
 
-      <FullMethod home="/method02" text="FULL METHOD AND ANALYSIS ➙" />
+      <FullMethod home="/method02" text="FULL METHOD AND ANALYSIS →" />
     </div>
   );
 }

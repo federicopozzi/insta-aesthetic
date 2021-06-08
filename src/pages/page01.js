@@ -87,19 +87,19 @@ dazeddigital
         imgDescr={[
           {
             src: dist1,
-            descr: 'descrizione1',
+            descr: 'It\'s an artificial look that turns people into semi-human, gender-blurred entities ',
           },
           {
             src: dist2,
-            descr: 'descrizione2',
+            descr: 'The shapes around the faces behave in physically impossible ways by bending reality and disrupting natural rules',
           },
           {
             src: dist3,
-            descr: 'descrizione3',
+            descr: 'Faces are covered in hyperreal materials with exaggerated properties',
           },
           {
             src: dist4,
-            descr: 'descrizione4',
+            descr: 'Faces are covered with colored fluorescent light and are enveloped in a prismatic glow.\n',
           },
         ]}
       />
@@ -126,9 +126,9 @@ dazeddigital
         <div className="row">
           <div className="col-6" />
           <div className="col-6 text-end">
-            <span className="text-decoration-underline text-uppercase">Discover the color comparison</span>
+            <Link to="/page02"><span className="text-decoration-underline text-uppercase">Discover the color comparison</span></Link>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <span className="text-decoration-underline text-uppercase">Discover the Stickers analysis</span>
+            <Link to="/page03"><span className="text-decoration-underline text-uppercase">Discover the Stickers analysis</span></Link>
           </div>
         </div>
         <div className="row pb-5 px-5 pt-5">
@@ -168,7 +168,7 @@ dazeddigital
           </div>
         </div>
       </div>
-      <FullMethod home="/method01" text="FULL METHOD AND ANALYSIS ➙" />
+      <FullMethod home="/method01" text="FULL METHOD AND ANALYSIS →" />
     </div>
   );
 }

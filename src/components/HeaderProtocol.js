@@ -35,9 +35,9 @@ export default function HeaderProtocol({ section }) {
         </div>
       </div>
       <div className="container-fluid bg-primary border-bottom border-dark">
-        <div className="row ps-4 py-3">
+        <div className="row ps-4 py-4">
           <div className="col-8">
-            <p className="display-8 everettL">{section.band}</p>
+            <p className="display-8 everettR mb-0">{section.band}</p>
           </div>
         </div>
         <div className="row" />

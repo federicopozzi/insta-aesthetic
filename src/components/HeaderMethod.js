@@ -25,7 +25,7 @@ export default function HeaderMethods({ section }) {
         <div className="row  px-2 border-start border-end border-dark border-1 mx-2 ">
           <div className="col-6 " >
               <h2 className="display-4 everett pt-3">{section.title}</h2>
-              <p className={'everettL pt-2 display-6'}>METHOD AND ANALYSIS</p>
+              <p className={'everettR pt-2 display-6'}>METHOD AND ANALYSIS</p>
           </div>
           <div className="col-6 px-0" />
         </div>

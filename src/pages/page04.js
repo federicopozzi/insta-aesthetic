@@ -84,7 +84,7 @@ export default function page04() {
       <div className="container-fluid border-bottom border-dark">
         <div className="row ps-4 py-3">
           <div className="col-8">
-            <p className="display-8 everettL">The unreachable anonymous Instagram model</p>
+            <p className="display-8 everettR">The unreachable anonymous Instagram model</p>
           </div>
         </div>
         <div className="row" />
@@ -93,11 +93,11 @@ export default function page04() {
       <div className="container-fluid border-bottom border-dark border-1 ">
         <div className="row">
           <div className="col-7 px-5 py-5">
-            <p>
+            <p className="display-10">
               The types of changes applied presents constants in most cases.
               The nose is reduced, becoming thin and narrow, while lips, on the contrary, are plumped up. The eyes are enlarged and slightly raised at the end, frequently applying fake eyelashes. The face overall is slimmed and the skin smoothed.
             </p>
-            <p>
+            <p className="display-10">
               "There are constants: symmetry, proportion, harmony and when you look at Kim, Megan Fox, Lucy Liu, Halle Berry, you'll always find commonalities."
             </p>
             <p className="text-decoration-underline">
@@ -116,11 +116,11 @@ export default function page04() {
             <img src={b41} className="img-fluid px-0" alt="" />
           </div>
           <div className="col-7 border-start border-1 border-dark px-5 py-5">
-            <p>
+            <p className="display-10">
               This face also characterized by an ambiguous origin: It’s a racially indefinable appearance that selects the most aesthetically pleasing elements of different racial profiles presenting itself as a mix of different cultures with singularities that are difficult to find all in one face:
               {' '}
             </p>
-            <p>
+            <p className="display-10">
               "We're talking about an overly tanned skin tone, a South Asian influence with the eyebrows and eye shape, an African American influence with the lips, a Caucasian influence with the nose, a cheek texture that is predominantly Native American and Middle Eastern."
             </p>
             <p className="text-decoration-underline">
@@ -142,13 +142,13 @@ export default function page04() {
               {' '}
             </p>
           </div>
-          <div className="col-7 border-start border-1 border-dark text-center py-5 d-flex align-items-center">
+          <div className="col-7 border-start border-1 border-dark text-center py-5 d-flex align-items-center justify-content-center">
             <img src={b42} className="img-fluid px-0" alt="" />
           </div>
 
         </div>
       </div>
-      <FullMethod home="/method04" text="FULL METHOD AND ANALYSIS ➙" />
+      <FullMethod home="/method04" text="FULL METHOD AND ANALYSIS →" />
     </div>
   );
 }

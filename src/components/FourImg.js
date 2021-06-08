@@ -10,12 +10,12 @@ export default function FourImg({ imgDescr, description }) {
         }, i) => (
           <div className="col-3">
             <img src={src} className="img-fluid" alt="" />
-            <p className="text-center"><p className="text-start">{descr}</p></p>
+            <p className="text-center pt-4"><p className="text-start">{descr}</p></p>
           </div>
         ))
       }
       </div>
-      <div className="row pb-3 justify-content-end pe-3">
+      <div className="row py-3 justify-content-end pe-3">
 
         <div className="col-4"><p className="text-end text-decoration-underline ">{description}</p></div>
 

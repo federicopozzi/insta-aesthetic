@@ -40,9 +40,9 @@ export default function method01() {
         </div>
       </div>
       <div className="container-fluid  border-bottom border-dark  ">
-        <div className="row  px-2 border-start border-end border-dark border-1 mx-2">
+        <div className="row  px-2 border-start border-end border-dark border-1 mx-2 justify-content-center">
 
-          <img src={protocol} className="img-fluid" alt="" style={{ transform: 'scale(0.8)' }} />
+          <img src={protocol} className="img-fluid" alt="" style={{ width: '80%' }} />
 
         </div>
       </div>
@@ -73,7 +73,7 @@ export default function method01() {
         </div>
       </div>
       <div className="container-fluid  border-bottom border-dark  ">
-        <div className="row px-2 border-start border-end border-dark border-1 mx-2">
+        <div className="row px-2 pt-4 border-start border-end border-dark border-1 mx-2">
           <StaticImage src="../images/page01/diagram.png" alt="" />
 
         </div>

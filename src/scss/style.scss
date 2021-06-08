@@ -36,11 +36,12 @@ $display-font-sizes: (
         2: 4.5rem,
         3: 4rem,
         4: 3.5rem,
-        5: 3rem,
+        5: 44px,
         6: 1.5rem,
         7: 1.8rem,
         8: 2.1rem,
         9:1.2rem,
+        10:18px,
 ) !default;
 
 
@@ -75,6 +76,10 @@ a:hover {
   font-family: Everett-Light;
 }
 
+.everettR {
+  font-family: Everett-Regular;
+}
+
 .sfondoGrad {
   background: linear-gradient(180deg, #C8C8C8 70.31%, rgba(192, 172, 255, 0.6) 100%);
 }
@@ -104,4 +109,8 @@ a:hover {
   &.active {
     text-decoration: underline;
   }
+}
+
+.e{
+  width:50% !important;
 }

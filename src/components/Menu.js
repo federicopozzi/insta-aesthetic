@@ -61,7 +61,7 @@ export default function Menu() {
                   <Link to={link}>
                     <div className="row border-bottom border-dark border-1" key={src}>
                       <div className="col-4 d-flex flex-column justify-content-between border-end border-dark border-1">
-                        <h2 className="everett text-uppercase display-4 py-4">{titleSx}</h2>
+                        <h2 className="everett text-uppercase display-5 py-4">{titleSx}</h2>
                         <p className="display-6 ">{subTitleSx}</p>
                       </div>
                       <div className="col-4  px-0">
@@ -69,7 +69,7 @@ export default function Menu() {
                       </div>
                       <div className="col-4 d-flex flex-column justify-content-between">
 
-                        <h2 className="everett text-uppercase display-4 py-4">{titleDx}</h2>
+                        <h2 className="everett text-uppercase display-5 py-4">{titleDx}</h2>
                         <p className="display-6">{subTitleDx}</p>
                       </div>
                     </div>
