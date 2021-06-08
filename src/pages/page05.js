@@ -39,9 +39,9 @@ export default function page05() {
       </div>
 
       <div className="container-fluid bg-primary border-bottom border-dark">
-        <div className="row ps-4 py-3">
+        <div className="row ps-4 py-5">
           <div className="col-8">
-            <p className="display-8 everettR">The next section wants to present cases where the Instagram filter went out of the platform, making the border between real and virtual world more blurred.</p>
+            <p className="display-8 everettR mb-0">The next section wants to present cases where the Instagram filter went out of the platform, making the border between real and virtual world more blurred.</p>
           </div>
         </div>
         <div className="row" />
