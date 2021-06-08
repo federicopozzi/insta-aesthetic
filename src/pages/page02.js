@@ -58,7 +58,7 @@ export default function page02() {
           <div className="col-8">
             <p className="display-6">
               Color and light play a major role in the final aesthetic of a filter.
-              From natural skin tones, to fluorescent-colored cheeks, two main trends also appear in the use of colors. While the perfectionist beauty filters favors an overall natural effect, dystopic masks transforms nude skin tones in surreal shades, turning color into a tool of distortion able to influence the perception of faces.
+              From natural  skin tones, to fluorescent-colored cheeks, two main trends also appear in the use of colors. While the perfectionist beauty filters favors an overall natural effect, dystopic masks transforms nude skin tones in surreal shades, turning color into a tool of distortion able to influence the perception of faces.
             </p>
             <p className="display-6">
               In the analysis, the main color of each post was identified by highlighting instances where it contributed to create a surrealistic effect, applying modifications not achievable in real life.
