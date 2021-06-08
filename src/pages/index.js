@@ -6,12 +6,14 @@ import { ReactComponent as Prova } from '../svg/prova.svg';
 import Menu from '../components/Menu';
 
 export default function Index() {
+  console.log('daje Tereeee');
+  console.log('Website Developed by Federico Pozzi & Andera Elena Febres Medina');
   return (
     <div className="bg-primary">
       <Layout />
       <HeaderHome />
       <div className="container-fluid bg-primary border-bottom border-dark border-1 ">
-        <div className="row pt-4">
+        <div className="row pt-4 px-4">
           <div className="col-6 pt-5 px-4">
             <h1 className="display-4 everett">
               THE AESTHETICS OF

@@ -58,8 +58,8 @@ export default function Menu() {
                 menu.map(({
                   titleSx, subTitleDx, titleDx, subTitleSx, src, link,
                 }, i) => (
-                  <Link to={link}>
-                    <div className="row border-bottom border-dark border-1" key={src}>
+                  <Link to={link} key={i}>
+                    <div className="row border-bottom border-dark border-1 px-4" key={src}>
                       <div className="col-4 d-flex flex-column justify-content-between border-end border-dark border-1">
                         <h2 className="everett text-uppercase display-5 py-4">{titleSx}</h2>
                         <p className="display-6 ">{subTitleSx}</p>
