@@ -61,8 +61,8 @@ export default function Viz05() {
     {
       descr1: 'BEAUTY3000 @JOHWSKA CREATOR',
       descr2: 'MAKE UP TUTORIAL',
-      img1: b1,
-      img2: b2,
+      img1: '',
+      img2: '',
       video1: 'video1',
       video2: 'video2',
       title: 'DYSTOPIC FILTERS ON MAKE UP TRENDS',
@@ -82,13 +82,13 @@ export default function Viz05() {
   const [under3, setUnder3] = useState(false);
 
   return (
-    <div className="container-fluid bg-secondary border-bottom border-dark border-1">
+    <div className="container-fluid bg-light border-bottom border-dark border-1">
       <div className="row border-bottom border-dark border-1">
         <div className="col-4 bg-success py-4 px-5">
           <p className={`mb-0 pointer under  ${under ? 'active' : ''}`} onClick={() => setVis(vis05[0], setUnder(true), setUnder1(false), setUnder2(false), setUnder3(false))}>GCDS: OUT OF THIS WORLD</p>
           <p className={`mb-0 pointer under  ${under1 ? 'active' : ''}`} onClick={() => setVis(vis05[1], setUnder(false), setUnder1(true), setUnder2(false), setUnder3(false))}>INES ALPHA'S X CHARLI XCX</p>
           <p className={`mb-0 pointer under  ${under2 ? 'active' : ''}`} onClick={() => setVis(vis05[2], setUnder2(true), setUnder(false), setUnder1(false), setUnder3(false))}>NYLON MAGAZINE GERMANY</p>
-          <p className={`mb-0 pointer under  ${under3 ? 'active' : ''}`} onClick={() => setVis(vis05[2], setUnder2(false), setUnder(false), setUnder1(false), setUnder3(true))}>BEAUTY 3000 AS MAKE UP TREND</p>
+          <p className={`mb-0 pointer under  ${under3 ? 'active' : ''}`} onClick={() => setVis(vis05[3], setUnder2(false), setUnder(false), setUnder1(false), setUnder3(true))}>BEAUTY 3000 AS MAKE UP TREND</p>
         </div>
         <div className="col-4 py-4 border-start border-dark border-1">
           <p className="everett mb-0">AR INSTAGRAM FILTER</p>

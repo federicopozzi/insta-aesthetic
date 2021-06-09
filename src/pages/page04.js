@@ -84,7 +84,7 @@ export default function page04() {
       <div className="container-fluid border-bottom border-dark">
         <div className="row ps-4 py-3">
           <div className="col-8">
-            <p className="display-8 everettR">The unreachable anonymous Instagram model</p>
+            <p className="display-8 everettR mb-0">The unreachable anonymous Instagram model</p>
           </div>
         </div>
         <div className="row" />

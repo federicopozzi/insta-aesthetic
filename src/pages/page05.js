@@ -16,7 +16,7 @@ export default function page05() {
         text: 'Dystopic filter are re-defining beauty in other contexts',
         src: cover,
         band: 'The innovative and extrem canons of dystopic filters are redefining beauty even outside Instagram',
-        method: '/method05',
+        method: '/method02',
       }}
       />
       <div className="container-fluid border-bottom border-dark border-1">
