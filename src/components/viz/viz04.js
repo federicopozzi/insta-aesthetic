@@ -3725,11 +3725,13 @@ export default function Viz04() {
           </div>
           <div className="row pt-3">
             <div className="col-3">
-              <div className="col-12">
-                <img src={origO} className="img-fluid" alt="" />
-              </div>
-              <div className="col-12">
-                <img src={vis.aa} className="img-fluid" alt="" />
+              <div className="row">
+                <div className="col-12">
+                  <img src={origO} className="img-fluid" alt="" />
+                </div>
+                <div className="col-12">
+                  <img src={vis.aa} className="img-fluid" alt="" style={{ width: '111px' }} />
+                </div>
               </div>
             </div>
             <div className="col-3">
@@ -3737,7 +3739,7 @@ export default function Viz04() {
                 <img src={origN} className="img-fluid" alt="" />
               </div>
               <div className="col-12">
-                <img src={vis.ab} className="img-fluid" alt="" />
+                <img src={vis.ab} className="img-fluid" alt="" style={{ width: '111px' }} />
               </div>
             </div>
             <div className="col-3">
@@ -3745,7 +3747,7 @@ export default function Viz04() {
                 <img src={origB} className="img-fluid" alt="" />
               </div>
               <div className="col-12">
-                <img src={vis.ac} className="img-fluid" alt="" />
+                <img src={vis.ac} className="img-fluid" alt="" style={{ width: '111px' }} />
               </div>
             </div>
 
