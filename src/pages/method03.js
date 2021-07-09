@@ -38,16 +38,17 @@ export default function method02() {
           </div>
         </div>
         <div className="row py-5 px-2 border-start border-end border-dark border-1 mx-2 justify-content-center">
-
-          <img src={method2} className="img-fluid px-5" alt="" style={{ width: '70%' }} />
+          <div className="col">
+            <img src={method2} className="img-fluid px-5" alt="" />
+          </div>
         </div>
       </div>
 
       <div className="container-fluid  border-bottom border-dark  ">
         <div className="row   border-start border-end border-dark border-1 mx-2 justify-content-center">
-
-          <img src={protocol} className="img-fluid" alt="" style={{ width: '80%' }} />
-
+          <div className="col">
+            <img src={protocol} className="img-fluid" alt="" />
+          </div>
         </div>
       </div>
 

@@ -38,7 +38,9 @@ export default function method02() {
           </div>
         </div>
         <div className="row py-5 px-2 border-start border-end border-dark border-1 mx-2">
-          <StaticImage src="../images/page02/method1.png" alt="" style={{ transform: 'scale(0.7)' }} />
+          <div className="col">
+            <StaticImage src="../images/page02/method1.png" alt="" style={{ transform: 'scale(0.7)' }} />
+          </div>
         </div>
       </div>
 
@@ -59,14 +61,16 @@ export default function method02() {
           </div>
         </div>
         <div className="row py-5 px-2 border-start border-end border-dark border-1 mx-2">
-          <img src={method2} className="img-fluid px-5" alt="" style={{ transform: 'scale(0.7)' }} />
+          <div className="col">
+            <img src={method2} className="img-fluid px-5" alt="" style={{ transform: 'scale(0.7)' }} />
+          </div>
         </div>
       </div>
       <div className="container-fluid  border-bottom border-dark  ">
         <div className="row  px-2 border-start border-end border-dark border-1 mx-2 justify-content-center">
-
-          <img src={protocol} className="img-fluid pt-2" alt="" style={{ width: '80%' }} />
-
+          <div className="col">
+            <img src={protocol} className="img-fluid pt-2" alt="" />
+          </div>
         </div>
       </div>
 

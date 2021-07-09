@@ -39,7 +39,9 @@ export default function page03() {
           </div>
         </div>
         <div className="row">
-          <img src={viz3} className="img-fluid px-0" alt="" />
+          <div className="col px-0">
+            <img src={viz3} className="img-fluid px-0" alt="" />
+          </div>
         </div>
       </div>
 

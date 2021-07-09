@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 
-import dist1 from '../../images/page01/viz01.png';
+import dist1 from '../../images/page01/viz01.jpg';
 import dist2 from '../../images/page01/viz01.1.png';
 
 export default function Viz01() {
@@ -14,7 +14,9 @@ export default function Viz01() {
         <div className={`col-6 tasto2 py-2 px-5  ${hover ? '' : 'active'}`} onClick={() => setViz1(dist1, setHover(false))}>DYSTOPIC AESTHETIC</div>
       </div>
       <div className="row">
-        <img src={viz1} className="img-fluid px-0" alt="" />
+        <div className="col px-0">
+          <img src={viz1} className="img-fluid px-0" style={{ width: '100%' }} alt="" />
+        </div>
       </div>
     </div>
   );

@@ -16,8 +16,9 @@ export default function Viz02() {
         {/* <div className={`col-6 tasto2 ${hover ? '' : 'active'}`} onClick={() => setViz1(dist1, setHover(false))}>viz2</div> */}
       </div>
       <div className="row ">
-        <img src={viz2} className="img-fluid px-0" alt="" />
-
+        <div className="col px-0">
+          <img src={viz2} className="img-fluid px-0" alt="" />
+        </div>
       </div>
       <div className="row px-1">
         <div className="col-2 pointer  py-2 text-center" onClick={() => setViz1(viz21)}><span className=" text-decoration-underline text-uppercase">ORIGINAL POST</span></div>

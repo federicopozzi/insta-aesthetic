@@ -46,9 +46,9 @@ export default function method04() {
 
       <div className="container-fluid  border-bottom border-dark  ">
         <div className="row  px-2 border-start border-end border-dark border-1 mx-2 justify-content-center">
-
-          <img src={protocol} className="img-fluid" alt="" style={{ width: '80%' }} />
-
+          <div className="col">
+            <img src={protocol} className="img-fluid" alt="" />
+          </div>
         </div>
       </div>
 
