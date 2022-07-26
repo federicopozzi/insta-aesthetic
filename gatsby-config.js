@@ -1,5 +1,5 @@
 module.exports = {
-  // pathPrefix: '/insta-aesthetic',
+  pathPrefix: '/insta-aesthetic',
   siteMetadata: {
     title: 'insta-aesthetic',
   },
